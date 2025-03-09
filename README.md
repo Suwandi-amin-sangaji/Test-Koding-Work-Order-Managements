@@ -75,3 +75,133 @@ Persyaratan Sistem
     NPM atau Yarn
 
     MySQL >= 5.7
+
+
+Instalasi
+1. Clone Repository
+
+Clone repository proyek dari GitHub:
+bash
+Copy
+
+git clone https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements.git
+cd Test-Koding-Work-Order-Managements
+
+2. Instalasi Backend (Laravel)
+a. Install Dependencies
+
+Jalankan perintah berikut untuk menginstal dependensi Laravel:
+bash
+Copy
+
+composer install
+
+b. Setup Environment
+
+Salin file .env.example menjadi .env:
+bash
+Copy
+
+cp .env.example .env
+
+Generate application key:
+bash
+Copy
+
+php artisan key:generate
+
+c. Konfigurasi Database
+
+Buka file .env dan sesuaikan konfigurasi database:
+env
+Copy
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nama_database
+DB_USERNAME=username_database
+DB_PASSWORD=password_database
+
+d. Migrasi Database
+
+Jalankan migrasi dan seeder untuk mengisi database dengan data awal:
+bash
+Copy
+
+php artisan migrate --seed
+
+e. Jalankan Server Laravel
+
+Jalankan server Laravel:
+bash
+Copy
+
+php artisan serve
+
+Server akan berjalan di http://localhost:9000.
+3. Instalasi Frontend (Vue.js)
+a. Masuk ke Direktori Frontend
+
+Masuk ke direktori frontend:
+bash
+Copy
+
+cd frontend
+
+b. Install Dependencies
+
+Jalankan perintah berikut untuk menginstal dependensi Vue.js:
+bash
+Copy
+
+npm install
+# atau
+yarn install
+
+c. Konfigurasi Environment Frontend
+
+Buat file .env di direktori frontend (jika belum ada) dan sesuaikan dengan konfigurasi backend:
+env
+Copy
+
+VUE_APP_API_URL=http://localhost:9000
+
+d. Jalankan Server Vue.js
+
+Jalankan server development Vue.js:
+bash
+Copy
+
+npm run dev
+# atau
+yarn dev
+
+Server akan berjalan di http://localhost:3000.
+4. Integrasi Backend dan Frontend
+a. Konfigurasi CORS di Laravel
+
+Pastikan Laravel mengizinkan request dari frontend. Buka file config/cors.php dan sesuaikan:
+php
+Copy
+
+'paths' => ['api/*', 'sanctum/csrf-cookie'],
+'allowed_origins' => ['http://localhost:3000'],
+'allowed_methods' => ['*'],
+'allowed_headers' => ['*'],
+
+b. Gunakan Axios untuk Komunikasi API
+
+Di frontend, gunakan Axios untuk mengirim request ke backend Laravel. Contoh:
+javascript
+Copy
+
+import axios from 'axios';
+
+axios.get('http://localhost:9000/api/work-orders')
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error(error);
+  }); 
