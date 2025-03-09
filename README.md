@@ -2,6 +2,20 @@
 
 Sistem Manajemen Work Order adalah aplikasi web yang dirancang untuk membantu proses manufaktur dalam mengelola, melacak, dan memperbarui work order. Aplikasi ini dilengkapi dengan Role-Based Access Control (RBAC) untuk membatasi akses berdasarkan peran pengguna (Production Manager dan Operator). Aplikasi ini dibangun dengan menggunakan Laravel sebagai backend dan Vue.js sebagai frontend.
 
+
+# Screenshoot Aplikasi
+
+Berikut adalah beberapa tampilan dari aplikasi:
+
+### 1. Tampilan Login
+![Tampilan Dashboard](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screenshoot/1.png?raw=true)
+
+### 2. Tampilan Dashboard Manager
+![Tampilan Dashboard](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screenshoot/2.png?raw=true)
+
+![Tampilan Laporan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screenshoot/3.png?raw=true)
+
+
 #Fitur Utama
 
 Role-Based Access Control (RBAC):
