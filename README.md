@@ -75,7 +75,7 @@ Teknologi yang Digunakan
 
     Frontend: Vue.js (JavaScript Framework)
 
-    Database: MySQL
+    Database: Postgress SQL
 
     Autentikasi: Laravel Santum
 
@@ -141,9 +141,9 @@ Buka file .env dan sesuaikan konfigurasi database:
 env
 Copy
 
-DB_CONNECTION=mysql
+DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
-DB_PORT=3306
+DB_PORT=5432
 DB_DATABASE=nama_database
 DB_USERNAME=username_database
 DB_PASSWORD=password_database
