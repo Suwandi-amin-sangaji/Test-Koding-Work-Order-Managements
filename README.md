@@ -8,7 +8,7 @@ Sistem Manajemen Work Order adalah aplikasi web yang dirancang untuk membantu pr
 Berikut adalah beberapa tampilan dari aplikasi:
 
 ### 1. Tampilan Login
-![Tampilan Dashboard](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screenshoot/1.png?raw=true)
+![Tampilan Login](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/1.png?raw=true)
 
 ### 2. Tampilan Dashboard Manager
 ![Tampilan Dashboard](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screenshoot/2.png?raw=true)
