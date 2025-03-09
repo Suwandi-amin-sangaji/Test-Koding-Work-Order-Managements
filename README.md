@@ -11,9 +11,19 @@ Berikut adalah beberapa tampilan dari aplikasi:
 ![Tampilan Login](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/1.png?raw=true)
 
 ### 2. Tampilan Dashboard Manager
-![Tampilan Dashboard](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screenshoot/2.png?raw=true)
+![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/2.png?raw=true)
 
-![Tampilan Laporan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screenshoot/3.png?raw=true)
+![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/3.png?raw=true)
+![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/4.png?raw=true)
+
+
+![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/5.png?raw=true)
+
+![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/6.png?raw=true)
+![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/7.png?raw=true)
+![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/8.png?raw=true)
+
+![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/9.png?raw=true)
 
 
 #Fitur Utama
