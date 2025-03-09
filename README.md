@@ -20,6 +20,7 @@ Berikut adalah beberapa tampilan dari aplikasi:
 ![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/5.png?raw=true)
 
 ![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/6.png?raw=true)
+### 3. Tampilan Dashboard Operator
 ![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/7.png?raw=true)
 ![Tampilan](https://github.com/Suwandi-amin-sangaji/Test-Koding-Work-Order-Managements/blob/main/screnshoot/8.png?raw=true)
 
